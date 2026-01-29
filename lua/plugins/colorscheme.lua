@@ -17,6 +17,16 @@ return {
     end,
   },
   {
+    "AlexvZyl/nordic.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
+    "tiagovla/tokyodark.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
     "cocopon/iceberg.vim",
     lazy = false,
     priority = 1000,
