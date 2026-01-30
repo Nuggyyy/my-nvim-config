@@ -32,9 +32,15 @@ return {
     priority = 1000,
   },
   {
+    "nyoom-engineering/oxocarbon.nvim",
+  },
+  {
+    "marko-cerovac/material.nvim",
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "iceberg",
+      colorscheme = "tokyodark",
     },
   },
 }
