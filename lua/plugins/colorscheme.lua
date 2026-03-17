@@ -20,6 +20,15 @@ return {
     "AlexvZyl/nordic.nvim",
     lazy = false,
     priority = 1000,
+    config = function()
+      require("nordic").setup({
+        on_palette = function(palette)
+          palette.gray0 = "#0f1117"
+        end,
+        after_palette = function(_) end,
+        on_highlight = function(_, _) end,
+      })
+    end,
   },
   {
     "tiagovla/tokyodark.nvim",
@@ -40,7 +49,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyodark",
+      colorscheme = "nordic",
     },
   },
 }
